@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.28)
+project(
+  dodge_multi
+  LANGUAGES C CXX
+)
+
+
+add_executable(main src/main.cpp)
