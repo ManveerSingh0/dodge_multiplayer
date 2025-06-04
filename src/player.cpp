@@ -10,3 +10,7 @@ Player::Player(){
 void Player::render(sf::RenderWindow& window){
     window.draw(player_body);
 }
+
+void Player::move(){
+    
+}

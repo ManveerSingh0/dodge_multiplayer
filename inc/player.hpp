@@ -11,6 +11,8 @@ class Player{
 
     private:
         sf::RectangleShape player_body;
+
+        void move();
 };
 
 
