@@ -4,7 +4,7 @@
 
 
 int main(int argc, char* argv[]) {
-  Game app("Dodge Multiplayer", 800,600);
+  Game app(800,600, "Dodge Multiplayer");
   app.start();
   return 0;
 }
