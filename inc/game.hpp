@@ -10,7 +10,7 @@ class Game{
     private:
     sf::RenderWindow window;
     public:
-        Game(unsigned int height, unsigned int width, std::string title);
+        Game(unsigned int height, unsigned int width, std::string& title);
         void start();
 };
 
