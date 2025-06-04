@@ -3,6 +3,7 @@
 
 Game::Game(unsigned int height, unsigned int width, const std::string& title){
     window.create(sf::VideoMode({height, width}), title);
+    player_manager.add_player(Player());
 }
 
 void Game::start(){
@@ -21,6 +22,7 @@ void Game::start(){
     }
 
     window.clear(sf::Color::Cyan);
+    player_manager.render(window);
     window.display();
   }
 }
