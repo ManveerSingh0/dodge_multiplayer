@@ -14,8 +14,7 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(SFML)
 
 
-
 add_subdirectory(src)
+add_subdirectory(inc)
 
-
-target_link_libraries(main PRIVATE SFML::Graphics SFML::Network)
+target_link_libraries(main PRIVATE game SFML::Graphics SFML::Network)
